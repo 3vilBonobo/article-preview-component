@@ -10,12 +10,18 @@ body {
   font-size: 13px;
 }
 
-body .container .attribution {
-  font-size: 11px;
-  text-align: center;
+a {
+  text-decoration: none;
 }
 
-body .container .attribution a {
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+}
+
+.attribution a {
   color: #3e52a3;
 }
 
@@ -53,7 +59,7 @@ body .container .attribution a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 350px;
+  width: 330px;
   border-radius: 10px;
   padding-bottom: 20px;
 }
@@ -61,22 +67,28 @@ body .container .attribution a {
 .container .card .drawers-img {
   position: relative;
   width: 100%;
+  height: 200px;
   border-radius: 10px 10px 0 0;
 }
 
 .container .card .text-section {
   padding: 30px;
+  line-height: 23px;
 }
 
 .container .card .text-section .title {
-  font-size: 18px;
+  color: #48556a;
+  font-size: 1.01rem;
   font-weight: 700;
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .container .card .text-section .main-text {
+  color: #6d7f97;
   font-weight: 700;
   text-align: left;
+  padding-left: 5px;
 }
 
 .container .card .profile-section {
@@ -93,6 +105,7 @@ body .container .attribution a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0 30px 0 30px;
 }
 
 .container .card .profile-section .avatar {
@@ -100,7 +113,84 @@ body .container .attribution a {
   width: 15%;
 }
 
+.container .card .profile-section .name {
+  color: #48556a;
+  font-weight: 700;
+}
+
+.container .card .profile-section .date {
+  color: #9eafc2;
+}
+
+.container .card .profile-section i {
+  background-color: #ecf2f8;
+  color: #48556a;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.container .card .profile-section .share-btn:hover i {
+  background-color: #6d7f97;
+  color: #ecf2f8;
+}
+
 .container .card .share-section {
-  display: none;
+  background-color: #48556a;
+  position: absolute;
+  top: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 330px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 0 0 10px 10px;
+  z-index: 10;
+}
+
+.container .card .share-section .share {
+  color: #9eafc2;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.container .card .share-section .icons-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+}
+
+.container .card .share-section .icons-section a {
+  color: #ecf2f8;
+  font-size: 1.3rem;
+}
+
+.container .card .share-section .share-btn i {
+  background-color: #6d7f97;
+  color: #ecf2f8;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  padding: 8px;
 }
 /*# sourceMappingURL=styles.css.map */

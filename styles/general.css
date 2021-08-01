@@ -10,12 +10,18 @@ body {
   font-size: 13px;
 }
 
-body .container .attribution {
-  font-size: 11px;
-  text-align: center;
+a {
+  text-decoration: none;
 }
 
-body .container .attribution a {
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+}
+
+.attribution a {
   color: #3e52a3;
 }
 /*# sourceMappingURL=general.css.map */
