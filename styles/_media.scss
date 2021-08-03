@@ -1,0 +1,32 @@
+@media (min-width: 780px) {
+  .container {
+    .card {
+      flex-direction: row;
+      width: 700px;
+      height: 280px;
+      .drawers-img {
+        height: 100%;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 10px 0 0 10px;
+      }
+      .main-section {
+        flex-direction: column;
+        padding: 25px;
+        border-radius: 0 10px 10px 0;
+        .text-section {
+          padding: 15px;
+        }
+        .title {
+          font-size: 1.3rem;
+          line-height: 30px;
+        }
+        .profile-section {
+          .avatar {
+            width: 10%;
+          }
+        }
+      }
+    }
+  }
+}
