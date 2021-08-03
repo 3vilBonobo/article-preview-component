@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,17 +14,6 @@ a {
   text-decoration: none;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  position: absolute;
-  bottom: 50px;
-}
-
-.attribution a {
-  color: #3e52a3;
-}
-
 .container {
   background-color: #ecf2f8;
   width: 100%;
@@ -34,14 +23,14 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .container .card {
@@ -51,14 +40,14 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 330px;
   border-radius: 10px;
   padding-bottom: 20px;
@@ -73,13 +62,13 @@ a {
 
 .container .card .text-section {
   padding: 30px;
-  line-height: 23px;
 }
 
 .container .card .text-section .title {
   color: #48556a;
   font-size: 1.01rem;
   font-weight: 700;
+  line-height: 23px;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -87,8 +76,9 @@ a {
 .container .card .text-section .main-text {
   color: #6d7f97;
   font-weight: 700;
+  line-height: 21px;
   text-align: left;
-  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .container .card .profile-section {
@@ -97,14 +87,14 @@ a {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0 30px 0 30px;
 }
 
@@ -138,22 +128,20 @@ a {
 .container .card .share-section {
   background-color: #48556a;
   position: absolute;
-  top: 580px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  top: 525px;
+  display: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 330px;
-  padding: 10px 30px 10px 30px;
+  padding: 15px 30px 15px 30px;
   border-radius: 0 0 10px 10px;
   z-index: 10;
 }
@@ -170,14 +158,14 @@ a {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 40%;
 }
 
@@ -193,4 +181,32 @@ a {
   border-radius: 50%;
   padding: 8px;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 780px) {
+  .container .card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 700px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+  }
+}
