@@ -4,6 +4,7 @@
       flex-direction: row;
       width: 700px;
       height: 280px;
+      padding: 0;
       .drawers-img {
         height: 100%;
         width: 250px;
@@ -26,6 +27,12 @@
             width: 10%;
           }
         }
+      }
+      .share-section {
+        border-radius: 10px;
+        top: 380px;
+        right: 250px;
+        width: 250px;
       }
     }
   }

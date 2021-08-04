@@ -80,7 +80,7 @@
     .share-section {
       background-color: $Very-Dark-Grayish-Blue;
       position: absolute;
-      top: 525px;
+      top: 560px;
       display: none;
       flex-direction: row;
       align-items: center;
@@ -107,11 +107,11 @@
           font-size: 1.3rem;
         }
       }
-      .share-btn {
+      .share-btn2 {
         i {
           background-color: $Desaturated-Dark-Blue;
           color: $Light-Grayish-Blue;
-          font-size: 1.1rem;
+          font-size: 1rem;
           border-radius: 50%;
           padding: 8px;
         }

@@ -139,7 +139,7 @@ a {
 .container .card .share-section {
   background-color: #48556a;
   position: absolute;
-  top: 525px;
+  top: 560px;
   display: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -185,10 +185,10 @@ a {
   font-size: 1.3rem;
 }
 
-.container .card .share-section .share-btn i {
+.container .card .share-section .share-btn2 i {
   background-color: #6d7f97;
   color: #ecf2f8;
-  font-size: 1.1rem;
+  font-size: 1rem;
   border-radius: 50%;
   padding: 8px;
 }
@@ -201,6 +201,7 @@ a {
             flex-direction: row;
     width: 700px;
     height: 280px;
+    padding: 0;
   }
   .container .card .drawers-img {
     height: 100%;
@@ -226,6 +227,12 @@ a {
   }
   .container .card .main-section .profile-section .avatar {
     width: 10%;
+  }
+  .container .card .share-section {
+    border-radius: 10px;
+    top: 380px;
+    right: 250px;
+    width: 250px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
