@@ -1,9 +1,9 @@
-let shareSection = document.querySelector('.share-section');
-
 function shareToggle() {
-  if (shareSection.style.display === 'none') {
-    shareSection.style.display = 'flex';
-  } else {
+  let shareSection = document.querySelector('.share-section');
+
+  if (shareSection.style.display === 'flex') {
     shareSection.style.display = 'none';
+  } else {
+    shareSection.style.display = 'flex';
   }
 }

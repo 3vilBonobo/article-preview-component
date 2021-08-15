@@ -234,5 +234,8 @@ a {
     right: 250px;
     width: 250px;
   }
+  .container .card .share-section .share-btn2 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
