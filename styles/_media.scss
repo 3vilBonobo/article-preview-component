@@ -37,6 +37,16 @@
         .share-btn2 {
           display: none;
         }
+        .triangle {
+          position: absolute;
+          background-color: $Very-Dark-Grayish-Blue;
+          clip-path: polygon(0 0, 100% 0, 50% 100%);
+          width: 50px;
+          height: 30px;
+          top: 35px;
+          left: 100px;
+          z-index: -2;
+        }
       }
     }
   }
