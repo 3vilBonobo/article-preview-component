@@ -51,26 +51,32 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: space-between;
+      justify-content: start;
       padding: 0 30px 0 30px;
 
       .avatar {
         border-radius: 50%;
         width: 15%;
       }
-      .name {
-        color: $Very-Dark-Grayish-Blue;
-        font-weight: 700;
-      }
-      .date {
-        color: $Grayish-Blue;
+      .profile-info {
+        margin-left: 20px;
+        .name {
+          color: $Very-Dark-Grayish-Blue;
+          font-weight: 700;
+        }
+        .date {
+          color: $Grayish-Blue;
+        }
       }
 
       i {
         background-color: $Light-Grayish-Blue;
         color: $Very-Dark-Grayish-Blue;
+        position: absolute;
         font-size: 1rem;
-        padding: 10px;
+        padding: 7px;
+        bottom: 19px;
+        right: 30px;
         border-radius: 50%;
       }
       .share-btn:hover i {
@@ -82,13 +88,13 @@
     .share-section {
       background-color: $Very-Dark-Grayish-Blue;
       position: absolute;
-      display: flex;
+      display: none;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
       top: 450px;
       width: 330px;
-      padding: 15px 30px 15px 30px;
+      padding: 20px 30px 20px 30px;
       border-radius: 0 0 10px 10px;
       z-index: 10;
 
@@ -100,9 +106,9 @@
       .icons-section {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
-        width: 40%;
+        width: 35%;
 
         a {
           color: $Light-Grayish-Blue;
@@ -111,11 +117,14 @@
       }
       .share-btn2 {
         i {
+          position: absolute;
           background-color: $Desaturated-Dark-Blue;
           color: $Light-Grayish-Blue;
           font-size: 1rem;
           border-radius: 50%;
-          padding: 8px;
+          padding: 7px;
+          bottom: 15px;
+          right: 30px;
         }
       }
     }
